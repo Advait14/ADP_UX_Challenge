@@ -1,0 +1,15 @@
+# Generated inspection and rendering artifacts
+tmp/
+tmp-sip-pages/
+task-brief-render/
+
+# Superseded root-level draft documents; maintained version lives in docs/
+01-project-requirements.md
+02-technical-requirements.md
+03-ui-ux-requirements.md
+04-logical-data-model.md
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
