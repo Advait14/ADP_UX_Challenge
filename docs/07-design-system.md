@@ -2,25 +2,24 @@
 
 ## Visual tone
 
-Trustworthy, calm, professional, and operational. The interface is information-dense but readable. It avoids futuristic AI decoration in favour of evidence, uncertainty, and actions.
+**Calm recruiting workspace:** human-centred, neutral, and operationally grounded. The interface uses a dense modern-product layout: icon rail, expanded navigation, global search, and an evidence-led worklist/detail pane. See [13-visual-language.md](13-visual-language.md) for the full direction.
 
 ## Foundations
 
-- **Primary ink:** `#17211D`
-- **Primary green:** `#174F3A`
-- **Dark green:** `#103D2D`
-- **Soft mint:** `#DFF1E6`
-- **Warm amber:** `#F6D89D`
-- **Soft blue:** `#DCEBF8`
-- **Surface:** `#FFFFFF`
-- **Canvas:** `#F7F9F6`
-- **Divider:** `#DCE5DF`
+- **Ink / deep forest:** `#183A31`
+- **Evergreen / active:** `#2D6A4F`
+- **Mist / selected surface:** `#EAF3EC`
+- **Parchment / canvas:** `#FAF9F6`
+- **Paper / elevated surface:** `#FFFFFF`
+- **Clay / low confidence:** `#B96D42` with `#FFF1E7` surface
+- **Plum / clarification:** `#6B5B95` with `#F0ECF8` surface
+- **Slate / metadata:** `#5F6D68`
 
 ## Typography
 
-- Display / page headings: Fraunces
-- Interface text and body: DM Sans
-- Use a clear heading hierarchy and concise labels for operational scanning.
+- Product typeface: Inter for both headings and interface text
+- Use weight, size, spacing, and contrast to create hierarchy; do not introduce a decorative display typeface.
+- Use a clear heading hierarchy and concise labels for dense operational scanning.
 
 ## Components
 
@@ -32,6 +31,14 @@ Trustworthy, calm, professional, and operational. The interface is information-d
 - Recommendation callout
 - Decision modal
 - Audit timeline
+
+## Layout and feedback
+
+- Use a 52px utility rail, 256px expanded navigation panel, and fluid work area with worklist/detail-pane relationship.
+- Place global search and utility controls in the top bar.
+- Use thin borders and restrained, diffuse shadows.
+- Prefer one primary action per context; keep destructive action quiet but explicit.
+- Use 150–250ms functional transitions only. Do not use celebratory motion for hiring outcomes.
 
 ## Accessibility rules
 

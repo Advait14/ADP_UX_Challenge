@@ -8,6 +8,7 @@ Application received
   → Needs clarification
   → Assessment recommended
   → Assessment completed
+  → Assessment result ready
   → Ready to shortlist
   → Decision recorded
 ```
@@ -28,11 +29,12 @@ High / sufficient evidence
 
 ## Prototype behavior
 
-- Candidate selection updates the queue preview.
-- Filter selection changes the active queue state.
-- Assessment approval and shortlist approval update local interface state.
+- Candidate selection opens an on-demand review drawer.
+- Search, filter, and sort controls update the active queue state.
+- Assessment, clarification, shortlist, and non-progression decisions update the selected candidate only.
 - Candidate update approval creates a visible confirmation.
-- Timeline entries represent audit events for decisions in the Rohan scenario.
+- Timeline entries record recommendations, assessment events, recruiter decisions, overrides, escalation, and candidate-update approval.
+- Overrides and non-progression cannot be recorded without a job-related reason.
 
 ## Safeguards
 

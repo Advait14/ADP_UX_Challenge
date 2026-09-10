@@ -13,3 +13,7 @@ task-brief-render/
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Node dependencies and local development output
+node_modules/
+dist/

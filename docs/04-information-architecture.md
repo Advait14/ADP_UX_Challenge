@@ -11,12 +11,15 @@ Today’s work
 
 Candidate queue
 ├── Action-first filters
+├── Working search and sort
 ├── Candidate worklist
-└── Selected-candidate preview
+├── Safe bulk clarification preparation
+└── On-demand candidate review drawer
 
 Candidate review
 ├── Recommendation and confidence
 ├── Evidence found / missing evidence
+├── Structured assessment result
 ├── Source evidence
 ├── Decision controls
 ├── Candidate update preview
@@ -26,6 +29,9 @@ Role scorecard
 ├── Required criteria
 ├── Weighted evidence
 └── Fair-screening guardrails
+
+Decision history
+└── System, recruiter, candidate-update, and override events
 ```
 
 ## Hiring-manager handoff
